@@ -1,50 +1,26 @@
-# .env
-.env
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# __pycache__
-__pycache__
-.pytest_cache
+# Virtual environments
+venv/
+.venv/
 
-# ruff cache
-.ruff_cache
-
-# macOS
-.DS_Store
-
-# build
-build
-dist
-pandasai.egg-info
-
-#venv
-/venv
-.venv
-
-# command line
-/pandasai_cli.egg-info
-
-# pycharm
-.idea/
-.idea
-
-# cache
-cache/
-
-# exports
-exports/
-
-# logs
+# Logs
 *.log
 
-# vscode
-.vscode
+# OS files
+.DS_Store
 
-# coverage
-.coverage
-coverage.xml
+# Build / cache
+build/
+dist/
+.eggs/
 
-# pgdata
-pgdata/
+# Node
+node_modules/
 
-# datasets
-datasets/
+# Environment variables
+.env
