@@ -1,0 +1,12 @@
+{
+    "dataset_id": "dataset_1",
+    "target_column": "loan_status",
+    "model": "XGBoostClassifier",
+    "train_rows": 500,
+    "features": [
+        "Principal",
+        "terms",
+        "age"
+    ],
+    "timestamp": "2026-03-06"
+}

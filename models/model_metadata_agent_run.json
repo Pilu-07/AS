@@ -1,0 +1,13 @@
+{
+    "dataset_id": "agent_run",
+    "target_column": "Gender",
+    "model": "XGBoostClassifier",
+    "train_rows": 500,
+    "features": [
+        "Principal",
+        "terms",
+        "past_due_days",
+        "age"
+    ],
+    "timestamp": "2026-03-07"
+}

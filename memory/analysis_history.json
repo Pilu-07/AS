@@ -1,0 +1,30 @@
+[
+    {
+        "dataset_name": "agent_run",
+        "target_column": "Gender",
+        "best_model": "XGBoostClassifier",
+        "f1_score": 0.52,
+        "r2_score": 0.0,
+        "top_features": [
+            "Principal",
+            "terms",
+            "past_due_days",
+            "age"
+        ],
+        "features": [
+            "Loan_ID",
+            "loan_status",
+            "Principal",
+            "terms",
+            "effective_date",
+            "due_date",
+            "paid_off_time",
+            "past_due_days",
+            "age",
+            "education",
+            "Gender"
+        ],
+        "analysis_id": "analysis_1_1772821992",
+        "timestamp": "2026-03-07 00:03:12"
+    }
+]

@@ -1,0 +1,29 @@
+2026-03-06 23:49:08,139 - dataset_1 | no drift detected
+2026-03-06 23:49:12,024 - Trained AutoML: dataset=dataset_1, target=loan_status, best_model=XGBoostClassifier, metrics={"accuracy": 0.45, "precision": 0.21241305510968433, "recall": 0.29594017094017094, "f1_score": 0.22954320140318765}
+2026-03-06 23:49:12,219 - SHAP Explainer failed: all the input array dimensions except for the concatenation axis must match exactly, but along dimension 1, the array at index 0 has size 3 and the array at index 1 has size 40
+2026-03-06 23:56:07,109 - DataAgent: Converted effective_date to datetime.
+2026-03-06 23:56:07,109 - DataAgent: Converted due_date to datetime.
+2026-03-06 23:56:07,110 - DataAgent: Converted paid_off_time to datetime.
+2026-03-06 23:56:07,113 - MLAgent: Guessed target column 'Gender'
+2026-03-06 23:56:07,302 - Trained AutoML: dataset=agent_run, target=Gender, best_model=XGBoostClassifier, metrics={"accuracy": 0.79, "precision": 0.6052631578947368, "recall": 0.53125, "f1_score": 0.52}
+2026-03-06 23:58:17,728 - DataAgent: Converted effective_date to datetime.
+2026-03-06 23:58:17,728 - DataAgent: Converted due_date to datetime.
+2026-03-06 23:58:17,729 - DataAgent: Converted paid_off_time to datetime.
+2026-03-06 23:58:17,732 - MLAgent: Guessed target column 'Gender'
+2026-03-06 23:58:17,938 - Trained AutoML: dataset=agent_run, target=Gender, best_model=XGBoostClassifier, metrics={"accuracy": 0.79, "precision": 0.6052631578947368, "recall": 0.53125, "f1_score": 0.52}
+2026-03-07 00:03:12,259 - DataAgent: Converted effective_date to datetime.
+2026-03-07 00:03:12,260 - DataAgent: Converted due_date to datetime.
+2026-03-07 00:03:12,260 - DataAgent: Converted paid_off_time to datetime.
+2026-03-07 00:03:12,263 - MLAgent: Guessed target column 'Gender'
+2026-03-07 00:03:12,463 - Trained AutoML: dataset=agent_run, target=Gender, best_model=XGBoostClassifier, metrics={"accuracy": 0.79, "precision": 0.6052631578947368, "recall": 0.53125, "f1_score": 0.52}
+2026-03-07 00:09:54,627 - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-03-07 00:09:54,627 - Probing node bootstrap-0 broker version
+2026-03-07 00:09:54,628 - Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2026-03-07 00:09:54,628 - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2026-03-07 00:09:54,677 - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-03-07 00:09:54,677 - Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2026-03-07 00:09:54,677 - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2026-03-07 00:09:54,727 - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2026-03-07 00:09:54,728 - Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2026-03-07 00:09:54,728 - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2026-03-07 00:09:54,728 - Kafka Consumer Error: NoBrokersAvailable
